@@ -1,5 +1,3 @@
-@import "media.scss";
-
 $mainColor: #e31b6d;
 $secondColor: #00cec9;
 $thirdColor: #eee;
@@ -256,3 +254,4 @@ textarea.form-control:focus {
   margin-right: 30px;
   color: $thirdColor;
 }
+@import "media.scss";

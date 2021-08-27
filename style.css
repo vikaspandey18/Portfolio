@@ -140,7 +140,7 @@ hr {
   );
   animation: example 3s 3 alternate-reverse;
 }
-/* @keyframes example {
+@keyframes example {
   0% {
     transform: rotateY(0deg);
   }
@@ -148,7 +148,7 @@ hr {
     transform: rotateY(180deg);
     background-color: #e31b6d;
   }
-} */
+}
 .imageClip {
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }

@@ -406,6 +406,13 @@ textarea.form-control:focus {
   }
 }
 
+@media screen and (max-width: 480px) {
+  #contact > div {
+    padding: 15px !important;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 425px) {
   /* NAVIGATION */
 
@@ -571,11 +578,11 @@ textarea.form-control:focus {
   }
 
   #project ul li {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   #project ul li a {
-    padding: 5px 8px;
+    padding: 5px 5px;
   }
 
   /* BLOG */
@@ -590,7 +597,7 @@ textarea.form-control:focus {
     font-size: 12px;
   }
   #blog .container .card-columns .card {
-    width: 280px;
+    width: 260px;
     margin: 10px;
   }
 
